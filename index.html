@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Projeto button</title>
+    <link rel="shortcut icon" href="devchallenges.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+  <main>
+    <header>
+      <nav>
+        <p class="p__nav"><span class="span__nav">Dev</span>challenges.io</p>
+        <a class="a__nav" href="#">Colors</a>
+        <a class="a__nav" href="#">Typography</a>
+        <a class="a__nav" href="#">Spaces</a>
+        <a class="a__nav" href="#">Buttons</a>
+        <a class="a__nav" href="#">Inputs</a>
+        <a class="a__nav" href="#">Grid</a>
+      
+      </nav>
+    </header>
+    <section class="section__buttons">
+      <!--Buttons Default-->
+      <div class="defaults"> 
+        <div class="div__buttons">
+          <p class="p__buttons">&ltbutton /&gt</p>
+          <button class="default">Default</button>
+        </div>
+        <div class="div__buttons">
+          <p class="p__buttons">&ltbutton  <span class="span__change">:hover</span>/&gt</p>
+          <button class="default hover">Default</button>
+        </div>
+      </div>
+      <!--Buttons Outline-->
+      <div class="defaults">
+        <div class="div__buttons">
+          <p class="p__buttons">&ltbutton outline /&gt</p>
+          <button class="default outline">Default</button>
+        </div>
+        <div class="div__buttons">
+          <p class="p__buttons">&ltbutton outline <span class="span__change">:hover</span>/&gt</p>
+          <button class="default outline hover">Default</button>
+        </div>
+      </div>
+      <!--Buttons com cor-->
+      <div class="defaults">
+        <div class="div__buttons">
+          <p class="p__buttons">&ltbutton uncolor /&gt</p>
+          <button class="default uncolor">Default</button>
+        </div>
+        <div class="div__buttons">
+          <p class="p__buttons">&ltbutton uncolor <span class="span__change">:hover</span>/&gt</p>
+          <button class="default uncolor hover">Default</button>
+        </div>
+      </div>
+      <!--Buttons com sombra-->
+      <div class="defaults">
+        <div class="div__buttons">
+          <p class="p__buttons">&ltbutton disable shadow /&gt</p>
+          <button  id="buttonshadow" class="default shadow">Default</button>
+        </div>
+      </div>
+      <!--Buttons que desativam-->
+      <div class="defaults"> 
+        <div class="div__buttons">
+          <p class="p__buttons">&ltbutton able /&gt</p>
+          <button class="default disable">activated</button>
+        </div>
+        <div class="div__buttons">
+          <p class="p__buttons">&ltbutton  <span class="span__change">:onclick</span>/&gt</p>
+          <button id="disableButton" class="default disable">Click</button>
+        </div>
+      </div>
+        
+    </section>
+  </main>
+
+    <script defer src="./js/script.js"></script>
+</body>
+</html>
