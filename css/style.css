@@ -35,7 +35,7 @@ main{
 /*-----------------------Inicio do cabeçalho-----------------------*/
 header{
     background-color: lightgray;
-    height: 2000px;
+    height: 1000px;
     max-width: 100%;
     width: 280px;
 
@@ -130,3 +130,76 @@ nav{
   }
   /*-----------------------fim dos buttons sombra-------------------*/
   /*-------------------fim dos buttons desabilitados----------------*/
+.div__i__button{
+    display: flex;
+    align-items: center;
+    background-color: #2962ff;
+    width: 100px;
+    height: 50px;
+    padding-left: 15px;
+    gap: 0;
+    border-radius: 8px;
+    color: white;
+
+}
+.div__i__button:hover{
+    background-color: #0044ff;
+}
+.default.shop{
+    background-color: transparent;
+    padding: 10px;
+    color: white;
+}
+.default.shop.hover{
+    padding-left: 5px;
+}
+/*-------------------fim dos buttons com icones----------------*/
+.default.small{
+    padding: 12px 18px;
+}
+.default.large{
+    padding: 18px 24px;
+}
+.defaults.flex{
+    align-items: center;
+}
+/*--------------fim dos buttons com tamanhos diferentes-----------*/
+.default.blue{
+    background-color: #2962ff;
+    color: white;
+}
+.default.dark{
+    background-color: #272727;
+    color: white;
+}
+.default.red{
+    background-color:#d32f2f;
+    color:white ;
+}
+/*--------------fim dos buttons com cores diferentes-----------*/
+.default.blue.hover:hover{
+    background-color: #0044ff;
+    color: white;
+}
+.default.dark.hover:hover{
+    background-color: #000000;
+    color: white;
+}
+.default.red.hover:hover{
+    background-color:#580000;
+    color:white ;
+}
+/*--------fim dos buttons com hovers de cores diferentes-------*/
+
+.p__footer{
+    font-size: 12px;
+    text-align: center;
+    padding-top: 50px;
+
+}
+.a__footer{
+    text-decoration: underline;
+    color: #000000;
+    font-style: italic;
+}
+/*-------------------------fim do footer------------------------*/
